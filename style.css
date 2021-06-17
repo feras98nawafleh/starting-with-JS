@@ -3,33 +3,57 @@ body{
   text-align: center;
 }
 header{
-  background-color: gold;
+  background-color: #FFE333;
+  border: 1px solid black;
+  border-radius: 15px;
 }
-
 nav{
   display: flex;
   justify-content: space-around;
 }
+h1{
+  font-weight: bolder;
+}
 ul, li{
   display: flex;
-  margin: 15px;
+  margin: 10px;
   list-style: none;
   text-underline-position: none;
 }
 a{
   text-decoration: none;
   color: black;
+  font-weight: bold;
+}
+a:hover{
+  background-color: #FFAC33;
+  border-radius: 15px;
+}
+section{
+  margin: 30px 0;
+  background-color: #FFAC33;
+  border: 1px solid black;
+  border-radius: 15px;
 }
 p{
-  font-size: 20px;
+  font-size: 30px;
   font-style: italic;
-  padding: 10px;
+  padding: 15px;
 }
-
 img{
   height: 250px;
   width: 400px;
 }
 footer{
-  background-color: gold;
+  background-color: #FFE333;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+footer h5{
+  margin: 5px;
+}
+i{
+  color: gold;
+  margin: 10px;
+  padding: 10px;
 }
