@@ -5,6 +5,7 @@ while(GOAT.toLowerCase() != "messi" && GOAT.toLowerCase() != "ronaldo" && GOAT.t
   var GOAT = window.prompt("Who's your greatest player of all time?");
 }
 
+function printGOAT(GOAT){
 if(GOAT.toLowerCase() == "messi") {
   alert("MESSI!! you're deffinitely right");
   document.write(`<div class="messi">
@@ -24,6 +25,8 @@ if(GOAT.toLowerCase() == "messi") {
         <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/12/17/15135288171302.jpg" alt="">
       </div>`)
 }
+}
+printGOAT(GOAT);
 
 var Rate = window.prompt("on a scale from 1-5, how would you rate "+ GOAT.toLowerCase() + "?");
 
@@ -32,9 +35,15 @@ while(Rate < 1 || Rate > 5) {
   var Rate = window.prompt("on a scale from 1-10, how would you rate "+ GOAT.toLowerCase() + "?");
 }
 
+function Rating(Rate){
 for(var i = 0;i<Rate;i++) {
   document.write(`<i class="fas fa-star"></i>
 `)
 }
+}
+Rating(Rate);
+
+
+
 
 
